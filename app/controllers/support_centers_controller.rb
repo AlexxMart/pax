@@ -54,4 +54,4 @@ class SupportCentersController < ApplicationController
         @support_center = SupportCenter.find(params[:id])
       end
   
-  end
+end
