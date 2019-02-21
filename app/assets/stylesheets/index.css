@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+th {
+  text-transform: capitalize;
+  font-family: 'Futura', 'Muli';
+  font-size: 22px;
+  color: #383838;
+}
+
+td {
+  font-family: 'Futura', 'Questrial';
+  font-size: 17px;
+}
+
+#search-view {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/BG.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 12%;
+}
+
+.search-menu {
+  display: flex;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.main h1 {
+  font-family: 'Futura', 'Muli';
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: #345f70;
+  padding: 10% 0 5% 0;
+  margin: 0;
+}
+
+#index-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#searchbar {
+  background-color: #eeffff;
+  font-family:'Questrial';
+  font-style:italic;
+  height:40px;
+  font-size:17px;
+  padding-left:10px;
+  opacity:0.8;
+  border:none;
+  box-shadow: 12px 10px 40px #31566baf;
+  z-index: 2;
+}
+
+input::placeholder {
+  color: #363535;
+  opacity: 0.7;
+}
+
+.searchbutton {
+  height:40px;
+  border:none;
+  padding:3px 12px 2px 12px;
+  color:#2e5b6e;
+  cursor:pointer;
+  z-index: 1;
+  vertical-align: middle;
+}
+
+.filters {
+  width: 55%;
+}
+
+.filters p {
+  font-family:'Futura', 'Questrial';
+  font-size:15px;
+  color:#2e5b6e;
+  margin-left:3px;
+}
+
+.filters label {
+  font-family:'Futura', 'Questrial';
+  font-size:15px;
+  color:#2e5b6e;
+  margin-right: 15px;
+}
+
+.inputs {
+  display: flex;
+  text-align:left;
+}
+
+.inputs > div {
+  display: flex;
+  align-items: center;
+}
+
+input[type=radio] {
+  position: relative !important;
+  opacity: 1 !important;
+  margin-right: 5px;
+  pointer-events: all !important;
+}

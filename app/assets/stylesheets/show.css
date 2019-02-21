@@ -1,0 +1,22 @@
+.support-center-details {
+  width: 80%;
+}
+
+h5 {
+  font-family:'Futura', 'Questrial';
+  color:#2f586e;
+}
+
+.show > p {
+  color: #242424;
+}
+
+.cost::before{
+  content: '$';
+}
+
+.show-actions {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}

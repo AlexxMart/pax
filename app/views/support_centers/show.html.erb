@@ -1,0 +1,141 @@
+<section class="section-container">
+
+  <h1><%= @support_center.name %></h1>
+
+  <div class="support-center-details show">
+
+    <h5>Address:</h5>
+    <p><%= @support_center.address %></p>
+
+    <h5>City:</h5>
+    <p><%= @support_center.city %></p>
+
+    <h5>County:</h5>
+    <p><%= @support_center.county %></p>
+    
+    <h5>Zip Code:</h5>
+    <p><%= @support_center.zip_code %></p>
+
+    <h5>Office Number:</h5>
+    <p><%= @support_center.office_number %></p>
+
+    <h5>Website:</h5>
+    <p><%= @support_center.website %></p>
+
+    <h5>Point of Contact:</h5>
+    <p><%= @support_center.point_of_contact %></p>
+
+    <h5>Hotline:</h5>
+    <p><%= @support_center.hotline %></p>
+
+    <h5>Type:</h5>
+    <p><%= @support_center.type_of_center %></p>
+
+    <h5>Service Description:</h5>
+    <p><%= @support_center.service_description %></p>
+
+    <h5>Eligibility:</h5>
+    <p><%= @support_center.eligibility %></p>
+
+    <h5>Cost:</h5>
+    <p class="cost"><%= @support_center.cost %></p>
+
+    <h5>Added Cost:</h5>
+    <p class="cost"><%= @support_center.added_cost %></p>
+
+    <h5>Crisis:</h5>
+    <% if @support_center.crisis %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Medical:</h5>
+    <% if @support_center.medical %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>ST Counsel:</h5>
+    <% if @support_center.st_counsel %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>LS Counsel:</h5>
+    <% if @support_center.ls_counsel %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Legal:</h5>
+    <% if @support_center.legal %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Case Management:</h5>
+    <% if @support_center.case_management %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Referral System:</h5>
+    <% if @support_center.referral_system %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+    
+    <h5>Shelter:</h5>
+    <% if @support_center.shelter %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Empowerment:</h5>
+    <% if @support_center.empowerment %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Prevention:</h5>
+    <% if @support_center.prevention %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>Undocumented Friendly:</h5>
+    <% if @support_center.undocumented_friendly %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+    <h5>LGBTQ Friendly:</h5>
+    <% if @support_center.lgbtq_friendly %>
+      <p>Yes</p>
+    <% else %>
+      <p>No</p>
+    <% end %>
+
+  </div>
+
+  <div class="show-actions">
+
+    <% if admin_signed_in? %>
+      <%= link_to 'Edit this service center', edit_support_center_path(@support_center), :class => 'action-button' %>
+    <% end %>
+    <%= link_to 'go to full list', support_centers_path, :class => 'action-button' %>
+
+  </div>
+
+</section>

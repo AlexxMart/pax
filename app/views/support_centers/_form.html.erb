@@ -1,0 +1,137 @@
+<p>All the fields in this form are mandatory, if the required information is not currently avialable please fill the space with 'N/A'</p>  
+
+<div class="messages-section">
+  <% if @support_center.errors.any? %>
+    <ul>
+    <% @support_center.errors.full_messages.each do |msg| %>
+      <li class="error-msg"><%= msg %></li>
+    <% end %>
+    </ul>
+  <% end %>
+</div>
+
+<%= form_for @support_center do |f| %>
+
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  
+    <%= f.label :county %>
+    <%= f.text_field :county %>
+
+    <%= f.label :zip_code %>
+    <%= f.text_field :zip_code %>
+
+    <%= f.label :office_number %>
+    <%= f.telephone_field :office_number %>
+
+    <%= f.label :website %>
+    <%= f.text_field :website %>
+
+    <%= f.label :point_of_contact %>
+    <%= f.text_field :point_of_contact %>
+
+    <%= f.label :hotline %>
+    <%= f.telephone_field :hotline %>
+
+    <%= f.label :type_of_center %>
+    <select name="support_center[type_of_center]">
+      <option value="legal">Legal</option>
+      <option value="housing">Housing</option>
+      <option value="financial">Financial</option>
+      <option value="medical">Medical</option>
+      <option value="psychological">Psychological</option>
+    </select>
+
+    <%= f.label :service_description %>
+    <%= f.text_area :service_description %>
+
+    <%= f.label :eligibility %>
+    <%= f.text_field :eligibility %>
+
+    <%= f.label :cost %>
+    <%= f.number_field :cost %>
+
+    <%= f.label :added_cost %>
+    <%= f.number_field :added_cost %>
+
+    <%= f.label :crisis %>
+    <select name="support_center[crisis]">
+      <option value="1">True</option>
+      <option value="0">False</option>
+    </select>
+
+    <%= f.label :medical %>
+    <select name="support_center[medical]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <label for="support_center_st_counsel">ST Counsel</label>
+    <select name="support_center[st_counsel]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <label for="support_center_ls_counsel">LS Counsel</label>
+    <select name="support_center[ls_counsel]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :legal %>
+    <select name="support_center[legal]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :case_management %>
+    <select name="support_center[case_management]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :referral_system %>
+    <select name="support_center[referral_system]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :shelter %>
+    <select name="support_center[shelter]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :empowerment %>
+    <select name="support_center[empowerment]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :prevention %>
+    <select name="support_center[prevention]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <%= f.label :undocumented_friendly %>
+    <select name="support_center[undocumented_friendly]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+    <label for="support_center_lgbtq_friendly">LGBTQ Friendly</label>
+    <select name="support_center[lgbtq_friendly]">
+      <option value="true">True</option>
+      <option value="false">False</option>
+    </select>
+
+  <%= f.submit %>
+  <%= link_to 'go to full list', support_centers_path, :class => 'action-button' %>
+<% end %>

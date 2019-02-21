@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:700i|Questrial');
+
+.top {
+  display: flex;
+  background:#6eb2d1;
+  padding: 0 5%;
+}
+
+.sidenav-trigger {
+  padding-top: 10px;
+  margin-right: 25px;
+}
+
+header > div.contactUsBanner {
+  padding: 10px 15px 15px 15%;
+}
+
+div.contactUsBanner {
+  padding: 10px 15px 15px 25px;
+}
+
+div.contactUsBanner > p {
+  display: inline;
+  text-transform: uppercase;
+  color: #fefeff;
+}
+
+div.contactUsBanner > p > a {
+  color: #fdfdfd;
+  font-weight: bold;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.admin-button {
+  font-family:'futura', 'Muli';
+  font-size: 19px;
+  margin: 7px 10px 2px 10px !important;
+}
+
+.admin-button > a {
+  color: #2f586e;
+}
+
+.sidenav-trigger {
+  color:#eeffff;
+  top: 50;
+}
+
+#slide-out > li {
+  font-family:'Futura', 'Questrial';
+  list-style:none;
+  color:#2f586e;
+  padding:7px 12px 7px 12px;
+  cursor:pointer;
+}
+
+#slide-out > li:hover > a {
+  color:#eeffff !important;
+}
+
+#slide-out > li:hover {
+  background:#2f586e;
+}
+ul > li, ol > li, li > a {
+  font-family:'Futura', 'Questrial';
+  color:#2f586e !important;
+  padding:7px 12px 7px 12px !important;
+  font-size: 17px !important;
+}
+
+.forSurvivorsLink {
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #2e5b6e;
+}
