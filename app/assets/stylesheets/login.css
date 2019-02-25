@@ -1,0 +1,21 @@
+h2 {
+    font-family:'Futura', 'Questrial';
+    color:#2f586e;
+    padding-left:20px;
+    margin-right:20px;
+    font-size: 19px;
+}
+
+.actions {
+    margin: 20px 0;
+}
+
+p {
+    padding-left: 5px !important;
+}
+
+.login-action > a{
+    font-family:'Futura', 'Muli';
+    color:#2f586e;
+    margin: 15px 0;
+}

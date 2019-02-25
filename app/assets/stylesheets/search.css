@@ -1,0 +1,16 @@
+.results-list > h3 > a {
+  text-transform: capitalize;
+  font-family:'Futura', 'Questrial';
+  font-style: italic;
+  color:#345f70;
+  padding-left: 7%;
+}
+
+.results-list > p {
+  padding-left: 7% !important;
+}
+
+.results-list > hr {
+  width: 90% !important;
+  color: #a0a0a0;
+}

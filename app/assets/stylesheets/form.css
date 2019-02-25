@@ -1,0 +1,29 @@
+select {
+  display: block !important;
+  margin: 10px 0 !important;
+}
+
+label {
+  font-family:'Futura', 'Questrial';
+  font-size: 1.2rem !important;
+  color: #505050 !important;
+}
+
+textarea {
+  background-color: #fff !important;
+  border: 1px solid #9e9e9e !important;
+  height: 120px !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.messages-section {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.error-msg {
+  color: rgb(224, 6, 6) !important;
+}

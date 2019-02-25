@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pax</title>
+    <title>PAX</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/poderosaOfficial0-min.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="main container">
+      
+      <%= render '/layouts/header' %>
+      <%= render '/layouts/messages' %>
+      <%= yield %>
+      <%= render '/layouts/footer' %>
+      
+    </div>
   </body>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </html>
