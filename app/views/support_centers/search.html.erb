@@ -9,7 +9,7 @@
         </div>
       
     
-        <div class="filters">
+        <div class="filters results-view">
           <div class="inputs">
             <div><%= radio_button_tag :filter, "Legal", params[:filter], id: "legal" %>
               <label for="legal">Legal</label></div>
@@ -35,7 +35,7 @@
             <% end %>
         </div>
     <% else %>
-        <p>There are no results for this Zip Code, please try with a different one or use a different filter</p>
+        <p class="results-error">There are no results for this Zip Code, please try with a different one or use a different filter</p>
     <% end %>
 
 </section>

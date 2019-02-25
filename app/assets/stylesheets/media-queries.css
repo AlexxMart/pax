@@ -1,18 +1,13 @@
-
-@media all and (max-width: 850px){
-  .shortcuts {
-    flex-direction: column;
-    align-items:start;
-    margin-left: 20px;
-    margin-top: 10px;
+@media all and (max-width: 768px){
+  header > p, .contactUsBanner > p {
+    font-size: 12px;
+    margin-left: 10px;
   }
 
-  .shortcuts > a {
-    margin-top: 5px;
+  .mobile-number {
+    display: inline !important;
   }
-}
 
-@media all and (max-width: 700px){
   .wrapper {
     flex-direction: column;
   }
@@ -26,18 +21,23 @@
     width:160px;
     height:50px;
   }
-}
 
-@media all and (max-width: 600px){
+  .shortcuts {
+    flex-direction: column;
+    align-items:start;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .shortcuts > a {
+    margin-top: 5px;
+  }
+  
   .inputs {
     flex-direction: column;
   }
-
+  
   .desktop-number {
     display: none;
-  }
-
-  .mobile-number {
-    display: block !important;
   }
 }

@@ -1,4 +1,5 @@
 footer {
+    position: relative;
     padding-left: 5%;
     background: #2f586e;
   }
@@ -11,6 +12,7 @@ footer {
     font-style:italic;
     font-weight:700;
     border:2px solid #eeffff;
+    border-radius: 5px;
     color:#eeffff;
     cursor:pointer;
     margin: 20px 0;
@@ -22,10 +24,6 @@ footer {
     background:#eeffff;
     color:#2f586e;
     transition:0.3s;
-  }
-
-  .footer-banner {
-    background-color: #18242b63;
   }
   
   .buttons button:hover {
@@ -50,13 +48,13 @@ footer {
   }
   
   .shortcuts i {
-    margin-right: 10px;
+    margin-right: 5px;
     vertical-align: middle;
   }
   
   .shortcuts a {
     font-family:'futura', 'Questrial';
-    font-size: 16px;
+    font-size: 17px;
     color:#eeffff;
     text-decoration:none;
     text-align: left;

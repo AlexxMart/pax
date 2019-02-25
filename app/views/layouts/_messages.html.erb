@@ -1,5 +1,6 @@
 <% if admin_signed_in? %>
     <div class="admin-actions">
+        <p class="admin-button"><%= link_to "Support Centers", support_centers_path %></p>
         <p class="admin-button"><%= link_to "Profile", edit_admin_registration_path %></p>
         <p class="admin-button"><%= link_to "Log Out", destroy_admin_session_path, method: :delete %></p>
     </div>

@@ -21,16 +21,17 @@ td {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background-image: url('../images/BG-min.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 12%;
 }
 
 .search-menu {
   display: flex;
+  box-shadow: 0 0 40px #c2c2ca;
   margin: 0 auto;
 }
 
@@ -40,7 +41,7 @@ td {
   width: 100% !important;
 }
 
-.main h1 {
+#index-main-text, .main h1 {
   font-family: 'Futura', 'Muli';
   text-align: center;
   font-weight: 700;
@@ -48,6 +49,10 @@ td {
   color: #345f70;
   padding: 10% 0 5% 0;
   margin: 0;
+}
+
+#index-main-text {
+  margin-top: 30px; 
 }
 
 #index-form {
@@ -64,7 +69,8 @@ td {
   padding-left:10px;
   opacity:0.8;
   border:none;
-  box-shadow: 12px 10px 40px #31566baf;
+  border-radius: 5px 0 0 5px;
+  margin: 0 !important;
   z-index: 2;
 }
 
@@ -75,16 +81,13 @@ input::placeholder {
 
 .searchbutton {
   height:40px;
-  border:none;
   padding:3px 12px 2px 12px;
   color:#2e5b6e;
   cursor:pointer;
+  border:none;
+  border-radius: 0 5px 5px 0;
   z-index: 1;
   vertical-align: middle;
-}
-
-.filters {
-  width: 55%;
 }
 
 .filters p {
@@ -99,6 +102,15 @@ input::placeholder {
   font-size:15px;
   color:#2e5b6e;
   margin-right: 15px;
+}
+
+.results-view {
+  margin-top: 15px;
+}
+
+.results-error {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .inputs {

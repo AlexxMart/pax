@@ -1,39 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:700i|Questrial');
 
 .top {
-  display: flex;
   background:#6eb2d1;
   padding: 0 5%;
 }
 
 .sidenav-trigger {
-  padding-top: 10px;
-  margin-right: 25px;
+  position: absolute;
+  top: 1%;
+  left: 2%;
 }
 
-header > div.contactUsBanner {
-  padding: 10px 15px 15px 15%;
-}
-
-div.contactUsBanner {
-  padding: 10px 15px 15px 25px;
-}
-
-div.contactUsBanner > p {
-  display: inline;
+header > p, .contactUsBanner > p {
   text-transform: uppercase;
+  text-align: center;
   color: #fefeff;
+  padding: 10px;
+  margin: 0;
 }
 
-div.contactUsBanner > p > a {
+header > p > a {
   color: #fdfdfd;
   font-weight: bold;
 }
 
 .admin-actions {
+  position: absolute;
+  right: 1%;
   display: flex;
   justify-content: flex-end;
   padding-right: 30px;
+}
+
+.admin-actions > .admin-button > a {
+  transition: 0.3s;
+}
+
+.admin-actions > .admin-button > a:hover {
+  color: #e4fbff;
+  transition: 0.3s;
+}
+
+.notice, .alert {
+  margin: 0;
 }
 
 .admin-button {
