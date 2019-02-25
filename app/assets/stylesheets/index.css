@@ -72,6 +72,7 @@ td {
   border-radius: 5px 0 0 5px;
   margin: 0 !important;
   z-index: 2;
+  box-sizing:border-box;
 }
 
 input::placeholder {

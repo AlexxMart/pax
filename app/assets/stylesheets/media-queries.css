@@ -1,4 +1,4 @@
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
   header > p, .contactUsBanner > p {
     font-size: 12px;
     margin-left: 10px;
@@ -39,5 +39,25 @@
   
   .desktop-number {
     display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #index-main-text {
+    margin-bottom: 20px;
+  }
+
+  #searchbar {
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .searchbutton {
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .search-menu {
+    flex-direction: column;
   }
 }
