@@ -4,7 +4,7 @@
     <%= form_tag("/search", :method => "get", id: "index-form") do %>
     
         <div class="search-menu">
-          <%= text_field_tag :search, params[:search], placeholder: "Please enter your zip code", id: "searchbar", :autofocus => true %>
+          <%= text_field_tag :search, params[:search], placeholder: "Please enter your county", id: "searchbar", :autofocus => true %>
           <button type="submit" class="searchbutton"><i class="material-icons">search</i></button>
         </div>
       

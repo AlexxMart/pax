@@ -33,7 +33,7 @@ class SupportCentersController < ApplicationController
     end
   
     def search
-      @results  = SupportCenter.where("cast(zip_code as text) like ? and type_of_center like ?", "%#{params[:search]}%", "%#{params[:filter]}%")
+      @results  = SupportCenter.where("county like ? and type_of_center like ?", "%#{params[:search.capitalize]}%", "%#{params[:filter]}%")
     end
   
     def show

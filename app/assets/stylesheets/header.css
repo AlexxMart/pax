@@ -24,6 +24,10 @@ header > p > a {
   font-weight: bold;
 }
 
+.notice {
+  position: absolute;
+} 
+
 .admin-actions {
   position: absolute;
   right: 1%;
