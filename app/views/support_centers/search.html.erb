@@ -31,7 +31,8 @@
             <% @results.each do |f| %>
                 <h3><%= f.name %></h3>
                 <p><%= f.city %>, <%= f.county %></p>
-                <%= link_to "more information", "support_centers/#{f.id}" %>
+                <p><%= f.service_description %></p>
+                <p><%= link_to "more information", "support_centers/#{f.id}", :class => "more-info" %></p>
                 <hr>
             <% end %>
         </div>

@@ -10,9 +10,19 @@
 .results-list > p {
   padding-top: 7px;
   padding-left: 7%;
+  margin: 0;
 }
 
 .results-list > hr {
   width: 90%;
   color: #a0a0a0;
+}
+
+.more-info {
+  line-height: 20px;
+  text-decoration: underline;
+  color:#345f70;
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 12px;
 }
