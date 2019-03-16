@@ -59,6 +59,10 @@ header > p > a {
   color: #2f586e;
 }
 
+.sidenav > li > a {
+  font-size: 17px;
+}
+
 .sidenav-trigger {
   color:#eeffff;
   top: 50;
