@@ -29,8 +29,9 @@
     <% if @results.length > 0 %>
         <div class="results-list">
             <% @results.each do |f| %>
-                <h3><%= link_to "#{f.name}", "support_centers/#{f.id}" %></h3>
+                <h3><%= f.name %></h3>
                 <p><%= f.city %>, <%= f.county %></p>
+                <%= link_to "more information", "support_centers/#{f.id}" %>
                 <hr>
             <% end %>
         </div>

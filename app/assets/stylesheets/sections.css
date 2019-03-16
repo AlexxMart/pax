@@ -1,6 +1,6 @@
 section h1 {
   color:#eeffff;
-  padding: 5% 0 !important;
+  padding: 5% 0;
 }
 
 section strong {
@@ -18,7 +18,7 @@ section p {
 }
 
 hr {
-  width: 60% !important;
+  width: 60%;
 }
 
 .section-container {
@@ -29,11 +29,11 @@ hr {
 }
 
 .container {
-  background: linear-gradient(#e8d1af,#9de0fb) !important;
+  background: linear-gradient(#e8d1af,#9de0fb);
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 
