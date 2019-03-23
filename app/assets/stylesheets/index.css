@@ -130,3 +130,8 @@ input[type=radio] {
   margin-right: 5px;
   pointer-events: all;
 }
+
+input[type="radio"]:not(:checked) {
+  position: relative;
+  opacity: 1;
+}
