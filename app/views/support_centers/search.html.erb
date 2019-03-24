@@ -10,34 +10,31 @@
       
     
         <div class="filters results-view">
-          <div class="inputs">
-            <div><%= radio_button_tag :filter, "Legal", params[:filter], id: "legal" %>
-              <label for="legal">Legal</label></div>
-            <div><%= radio_button_tag :filter, "Housing", params[:filter], id: "housing" %>
-              <label for="housing">Housing</label></div>
-            <div><%= radio_button_tag :filter, "Financial", params[:filter], id: "financial" %>
-              <label for="financial">Financial</label></div>
-            <div><%= radio_button_tag :filter, "Medical", params[:filter], id: "medical" %>
-              <label for="medical">Medical</label></div>
-            <div><%= radio_button_tag :filter, "Psychological", params[:filter], id: "psychological" %>
-              <label for="psychological">Psychological</label></div>
-          </div>
+          <%= render '/pages/inputs' =%>
         </div>
     
-      <% end %>
+    <% end %>
 
-    <% if @results.length > 0 %>
-        <div class="results-list">
-            <% @results.each do |f| %>
-                <h3><%= f.name %></h3>
-                <p><%= f.city %>, <%= f.county %></p>
-                <p><%= f.service_description %></p>
-                <p><%= link_to "more information", "support_centers/#{f.id}", :class => "more-info" %></p>
-                <hr>
-            <% end %>
-        </div>
+      <div class="results-list">
+        <% if @results.length > 0 %>
+          <% @results.each do |f| %>
+            <h3><%= f.name %></h3>
+            <p><%= f.city %>, <%= f.county %></p>
+            <p><%= f.service_description %></p>
+            <p><%= link_to "more information", "support_centers/#{f.id}", :class => "more-info" %></p>
+            <hr>
+          <% end %>
+
+      </div>
+
     <% else %>
-        <p class="results-error">There are no results for this Zip Code, please try with a different one or use a different filter</p>
+      <% if @queryCounty != '' && @queryFilter != nil %>
+        <p id="results-error">There are no results for the County of "<%= @queryCounty %>" with the filter "<%= @queryFilter %>", please try again with different search terms.</p>
+      <% elsif @queryCounty != '' && @queryFilter != '' %>
+        <p id="results-error">There are no results for the County of "<%= @queryCounty %>", please try again with a different County.</p>
+      <% else %>
+        <p id="results-error">It seems your search includes no parameters, please type in your County in the searchbar and add the filter that better describes the type of help you're looking for.</p>
+      <% end %>
     <% end %>
 
 </section>

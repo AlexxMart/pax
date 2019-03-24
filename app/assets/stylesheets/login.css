@@ -33,12 +33,6 @@ h2 {
     font-size: 1.2em;
 }
 
-[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-    position: relative;
-    opacity: 1;
-    pointer-events: all;
-}
-
 #remember_user {
     margin-top: 3%;
 }

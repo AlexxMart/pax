@@ -33,7 +33,9 @@ class SupportCentersController < ApplicationController
     end
   
     def search
-      @results  = SupportCenter.where("county like ? and type_of_center like ?", "%#{params[:search.capitalize]}%", "%#{params[:filter]}%")
+        @queryCounty = params[:search].capitalize
+        @queryFilter = params[:filter].downcase
+        @results = SupportCenter.where("county LIKE ? and type_of_center LIKE ?", @queryCounty, @queryFilter)
     end
   
     def show

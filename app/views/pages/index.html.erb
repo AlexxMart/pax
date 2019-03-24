@@ -13,18 +13,7 @@
 
       <div class="filters">
       <p>Please select what you are looking for</p>
-        <div class="inputs">
-          <div><%= radio_button_tag :filter, "Legal", params[:filter], id: "legal" %>
-            <label for="legal">Legal</label></div>
-          <div><%= radio_button_tag :filter, "Housing", params[:filter], id: "housing" %>
-            <label for="housing">Housing</label></div>
-          <div><%= radio_button_tag :filter, "Financial", params[:filter], id: "financial" %>
-            <label for="financial">Financial</label></div>
-          <div><%= radio_button_tag :filter, "Medical", params[:filter], id: "medical" %>
-            <label for="medical">Medical</label></div>
-          <div><%= radio_button_tag :filter, "Psychological", params[:filter], id: "psychological" %>
-            <label for="psychological">Psychological</label></div>
-        </div>
+        <%= render '/pages/inputs' =%>
       </div>
 
     <% end %>
