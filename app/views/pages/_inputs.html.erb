@@ -1,12 +1,12 @@
 <div class="inputs">
   <div><%= radio_button_tag :filter, "Legal", params[:filter], id: "legal" %>
-    <label for="legal">Legal</label></div>
+    <label for="legal"><%= I18n.t 'index.inputs.legal'%></label></div>
   <div><%= radio_button_tag :filter, "Housing", params[:filter], id: "housing" %>
-    <label for="housing">Housing</label></div>
+    <label for="housing"><%= I18n.t 'index.inputs.housing'%></label></div>
   <div><%= radio_button_tag :filter, "Financial", params[:filter], id: "financial" %>
-    <label for="financial">Financial</label></div>
+    <label for="financial"><%= I18n.t 'index.inputs.financial'%></label></div>
   <div><%= radio_button_tag :filter, "Medical", params[:filter], id: "medical" %>
-    <label for="medical">Medical</label></div>
-  <div><%= radio_button_tag :filter, "Psychological", params[:filter], id: "psychological" %>
-    <label for="psychological">Psychological</label></div>
+    <label for="medical"><%= I18n.t 'index.inputs.medical'%></label></div>
+  <div><%= radio_button_tag :filter, "Psychological", params[:filter], id: "1" %>
+    <label for="psychological"><%= I18n.t 'index.inputs.psychological'%></label></div>
 </div>

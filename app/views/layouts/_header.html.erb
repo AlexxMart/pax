@@ -1,11 +1,11 @@
 <header class="top">
-    <p>You are not alone. If you or someone you know needs help, call <span class="desktop-number">1-800-656-4673</span><a class="mobile-number" href="tel:+18006564673">1-800-656-4673</a> for immediate support or contact us today.</p>
+    <p><%= I18n.t 'index.contact_banner_a'%> <span class="desktop-number">1-800-656-4673</span><a class="mobile-number" href="tel:+18006564673">1-800-656-4673</a> <%= I18n.t 'index.contact_banner_b'%></p>
     <ul id="slide-out" class="sidenav">
-        <li class="sidenav-close" data-no-turbolink><a href="/">Home Page</a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/get-help">Get help</a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/for-survivors">For Survivors</a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/safety-planning">Safety Planning</a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/service-providers">For Service Providers</a></li>
+        <li class="sidenav-close" data-no-turbolink><a href="/"><%= I18n.t 'index.menu.home'%></a></li>
+        <li class="sidenav-close" data-no-turbolink><a href="/get-help"><%= I18n.t 'index.menu.get_help'%></a></li>
+        <li class="sidenav-close" data-no-turbolink><a href="/for-survivors"><%= I18n.t 'index.menu.for_survivors'%></a></li>
+        <li class="sidenav-close" data-no-turbolink><a href="/safety-planning"><%= I18n.t 'index.menu.safety_planning'%></a></li>
+        <li class="sidenav-close" data-no-turbolink><a href="/service-providers"><%= I18n.t 'index.menu.ngos'%></a></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 </header>
