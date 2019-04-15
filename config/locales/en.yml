@@ -149,3 +149,48 @@ en:
       text_a: 'If you or someone you know needs help, call'
       text_b: 'for immediate support or these 24-hour hotlines that offer information and crisis intervention.'
     here: 'here'
+  safety_planning:
+    title: 'Safety Planning'
+    text: "Although you can't control an abuser's use of violence, you can plan how you will respond to future abusive or violent incidents, prepare for the possibility of an incident happening, and plan how get to safety. It is your decision if and when you tell others that you have being abused, or that you are still at risk. Friends, family, and coworkers can help with your safety plan if they are aware of the situation and want to help."
+    questions_header: 'Ask yourself the following questions:'
+    list:
+      a: 'When I have to talk to the abuser, I can ____________________.'
+      b: 'When I talk on the phone with the abuser, I can ____________________.'
+      c: 'I can make up a "code word" for my family, co-workers, friends and counselor so they know when to call for help for me. My code word is ____________________.'
+      d: 'When I feel a fight coming on, I will try to move to a place that is lowest risk for getting hurt, such as ____________________ (at work), ____________________ (at home) or ____________________ (in public).'
+      e: 'I can tell my family, co-workers, boss, counselor or a friend about my situation. I feel safe telling ____________________.'
+      f: 'I can screen my calls, texts, emails, and visitors. I have the right to not receive harassing phone calls, texts or emails. I can ask friends, family members or co-workers to help me screen my contacts. I can ask these people for help: ____________________.'
+      g:
+        main: 'I can call any of the following people for assistance or support if necessary and ask them to call the police if they see the abuser harassing me.'
+        sub_list:
+          a: 'Friend: ____________________'
+          b: 'Relative: ____________________'
+          c: 'Co-worker: ____________________'
+          d: 'Counselor: ____________________'
+          e: 'Shelter: ____________________'
+          f: 'Other: ____________________'
+      h: 'When leaving work, I can ____________________.'
+      i: 'When walking, riding, or driving home, if problems occur, I can ____________________.'
+      j: "I can attend a victim's/survivor's support group with the Domestic Violence program, like ____________________."
+      k:
+        main: 'Contact Information I Need To Have:'
+        sub_list:
+          a: 'Police Department: ____________________'
+          b: 'Domestic Violence Program: ____________________'
+          c: 'Sexual Assault Program: ____________________'
+          d: 'Attorney: ____________________'
+          e: 'Counselor: ____________________'
+          f: 'Spiritual Support/Clergy: ____________________'
+          g: 'Probation Officer: ____________________'
+          h: 'Other: ____________________'
+    resources:
+      title: 'ACCESSING RESOURCES'
+      text: "When you are in crisis, it is very difficult to look for assistance, make decisions and take care of yourself and others. An advocate, through your local domestic violence program, can help in many ways. They can identify resources in the community that otherwise may be unseen (like churches and individuals that will serve as support). S/he can start contact with a service provider and facilitate the process. They can also give support and encouragement. In these times where budgets are limited, having an \"out of the box\" perspective is important. It is very likely that there are others looking for what you are trying to find as well. For example, if you need childcare and you can't find financial assistance, look for other parents that also need childcare and trade days watching each other’s children."
+    guidelines:
+      title: 'Some useful guidelines to keep in mind when finding support:'
+      list:
+        a: 'If you are not comfortable with the person you are working with, ask for another advocate or counselor, or try to find another domestic violence program.'
+        b: "Have essential documents available when you go to an appointment: birth certificates, picture ID, driver's license, passport, and utility bills (to show residency). Learn what documents you will need ahead of time."
+        c: "Make your calls from a place where you can engage in a conversation and take care of possible interruptions ahead of time (e.g. have little ones take a nap or call when children are playing at the neighbor's)."
+        d: 'Be patient, speak clearly, and do not give your story to the person who answers the phone or the first contact person. More than likely, you will have to tell your story all over again to the person qualified to help you. Instead, give clear and specific information about what you need (e.g. "I need a pro-bono family law attorney for a child custody case, and I am a victim of domestic violence"). Then let the service provider ask you for the information they need to qualify you for the services. If possible, have an advocate initiate the contact with the referred service provider.'
+        
