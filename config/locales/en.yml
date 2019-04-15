@@ -127,3 +127,25 @@ en:
         text_b: 'Treatment for PTSD typically begins with a detailed evaluation and the development of a treatment plan that meets the unique needs of the survivor. PTSD-specific treatment is usually begun only after people have been safely removed from a crisis situation.'
     bullet_point: 'If you are a victim/survivor, here are some tips that may help:'
     close: 'Close'
+  get_help:
+    title: 'What is sexual & gender based violence'
+    text: 'Sexual assault is actual, attempted, or threatened sexual contact with another person without that person’s consent. Learn more '
+    what_to_do:
+      title: 'What to Do if You’ve Just Experience Violence'
+      list:
+        a: 'Get to a safe place.'
+        b: 'Contact someone who can help you: a friend, the police (911), the local hospital or these hotlines.'
+        c: 'Report your abuser. Not sure if you feel safe or comfortable reporting? Learn more'
+    questions:
+      title: 'Common Questions of Survivors of Gender-based Violence'
+      text_a: 'Emotional responses of survivors will vary from individual to individual. Read some'
+      text_b: 'on common questions of survivors.'
+    feelings:
+      title: 'Common Feelings of Survivors of Gender-based Violence'
+      text_a: 'Sexual assault can be extremely traumatic and life-changing. It’s important to remember that your responses are not crazy; they are normal reactions to a traumatic situation. Read more'
+      text_b: 'on common feelings survivors of gender-based violence  may experience.'
+    hotlines:
+      title: 'Hotlines'
+      text_a: 'If you or someone you know needs help, call'
+      text_b: 'for immediate support or these 24-hour hotlines that offer information and crisis intervention.'
+    here: 'here'
