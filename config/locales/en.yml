@@ -15,7 +15,7 @@ en:
       legal: 'Legal'
       housing: 'Housing'
       financial: 'Financial'
-      medical:  'Medical'
+      medical: 'Medical'
       psychological: 'Psychological'
     footer:
       hotlines: 'Help Hotlines'
@@ -185,7 +185,7 @@ en:
           h: 'Other: ____________________'
     resources:
       title: 'ACCESSING RESOURCES'
-      text: "When you are in crisis, it is very difficult to look for assistance, make decisions and take care of yourself and others. An advocate, through your local domestic violence program, can help in many ways. They can identify resources in the community that otherwise may be unseen (like churches and individuals that will serve as support). S/he can start contact with a service provider and facilitate the process. They can also give support and encouragement. In these times where budgets are limited, having an \"out of the box\" perspective is important. It is very likely that there are others looking for what you are trying to find as well. For example, if you need childcare and you can't find financial assistance, look for other parents that also need childcare and trade days watching each other’s children."
+      text: 'When you are in crisis, it is very difficult to look for assistance, make decisions and take care of yourself and others. An advocate, through your local domestic violence program, can help in many ways. They can identify resources in the community that otherwise may be unseen (like churches and individuals that will serve as support). S/he can start contact with a service provider and facilitate the process. They can also give support and encouragement. In these times where budgets are limited, having an "out of the box" perspective is important. It is very likely that there are others looking for what you are trying to find as well. For example, if you need childcare and you can''t find financial assistance, look for other parents that also need childcare and trade days watching each other’s children.'
     guidelines:
       title: 'Some useful guidelines to keep in mind when finding support:'
       list:
@@ -193,4 +193,35 @@ en:
         b: "Have essential documents available when you go to an appointment: birth certificates, picture ID, driver's license, passport, and utility bills (to show residency). Learn what documents you will need ahead of time."
         c: "Make your calls from a place where you can engage in a conversation and take care of possible interruptions ahead of time (e.g. have little ones take a nap or call when children are playing at the neighbor's)."
         d: 'Be patient, speak clearly, and do not give your story to the person who answers the phone or the first contact person. More than likely, you will have to tell your story all over again to the person qualified to help you. Instead, give clear and specific information about what you need (e.g. "I need a pro-bono family law attorney for a child custody case, and I am a victim of domestic violence"). Then let the service provider ask you for the information they need to qualify you for the services. If possible, have an advocate initiate the contact with the referred service provider.'
-        
+  ngos:
+    title: 'For NGOS'
+    form:
+      address: 'Street Address'
+      city: 'City'
+      county: 'County'
+      zip: 'Zip Code'
+      office: 'Office Number'
+      site: 'Website'
+      contact: 'Point of Contact'
+      hotline: 'Hotline'
+      description: 'Service Description'
+      eligibility: 'Eligibility'
+      cost: 'Cost'
+      type: 'Type of Center'
+      added_cost: 'Added Cost'
+      crisis: 'Crisis'
+      medical: 'Medical'
+      st_councel: 'ST Councel'
+      lt_councel: 'LT Councel'
+      legal: 'Legal'
+      case: 'Case Management'
+      referral: 'Referral System'
+      shelter: 'Shelter'
+      empowerment: 'Empowerment'
+      prevention: 'Prevention'
+      undocumented_friendly: 'Undocumented Friendly'
+      lgbtq: 'LGBTQ Friendly'
+      pain_points: 'Pain Points'
+    send: 'send'
+    'yes': 'yes'
+    'no': 'no'
