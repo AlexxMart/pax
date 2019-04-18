@@ -72,3 +72,17 @@ footer {
   .mobile-number {
     display: none;
   }
+
+  .locale-switch  {
+    justify-content: space-around;
+    width: 20%;
+    min-width: 65px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+
+  .locale-switch > a{
+    font-family:'futura', 'Questrial';
+    font-size: 17px;
+    color:#eeffff;
+  }
