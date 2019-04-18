@@ -1,2 +1,227 @@
 es:
-  hello: "hola mundo"
+  index:
+    header: 'Obtén ayuda cerca de ti'
+    placeholder: 'Por favor ingrese su condado'
+    select_help: 'Por favor seleccione lo que está buscando'
+    contact_banner_a: 'NO ESTAS SOLO. SI USTED O ALGUIEN QUE CONOCE NECESITA AYUDA, LLAME AL'
+    contact_banner_b: 'PARA APOYO INMEDIATO O PÓNGASE EN CONTACTO CON NOSOTROS HOY..'
+    menu:
+      home: 'Página Principal'
+      get_help: 'Obtén Ayuda'
+      for_survivors: 'Para Sobrevivientes'
+      safety_planning: 'Plan de Seguridad'
+      ngos: 'Para Proveedores'
+    inputs:
+      legal: 'Legal'
+      housing: 'Vivienda'
+      financial: 'Financiera'
+      medical: 'Médica'
+      psychological: 'Psicológica'
+    footer:
+      hotlines: 'Líneas de ayuda'
+      housing: 'Alojamiento Temporal'
+      safety_planning: 'Plan de seguridad para sobrevivientes'
+  survivors:
+    title: 'Para Sobrevivientes'
+    sexual_assault: '¿QUÉ ES EL ASALTO SEXUAL?'
+    assault:
+      assault_text: 'Asalto sexual es contacto sexual, intentado o amenazado con otra persona sin el consentimiento de esa persona.'
+    rape:
+      title: '¿QUÉ ES LA VIOLACIÓN?'
+      text: 'Violación es un término comúnmente usado para describir una agresión sexual que incluye penetración sexual no deseada y / o forzada, así como situaciones en las que la víctima / sobreviviente no puede dar su consentimiento (menor de edad, adultos vulnerables, etc.)'
+    consent:
+      title: '¿QUÉ ES CONSENTIMIENTO?'
+      text_a: 'El consentimiento es el acuerdo libre y otorgado por ambas partes, para participar en una actividad sexual específica.'
+      text_b: 'El consentimiento no está presente cuando la otra persona:'
+      list:
+        a: 'Está incapacitado por el uso de alcohol o drogas.'
+        b: 'Teme las consecuencias de no consentir.'
+        c: 'Se siente amenazado o intimidado.'
+        d: 'Es obligado (se le obliga a someterse mediante intimidación, amenazas, mal uso de la autoridad, manipulación, engaño o soborno con acciones y palabras).'
+        e: 'Está forzado físicamente a cumplir.'
+        f: 'Dice que no, ya sea verbal o físicamente (por ejemplo, llorar pateando o alejándose).'
+        g: 'No es un participante activo en la actividad.'
+        h: 'Está por debajo de la edad legal de consentimiento.'
+        i: 'Tiene una discapacidad física o discapacidad mental que le impide a la persona tomar una decisión informada.'
+        j: 'Carece de pleno conocimiento o información de lo que está sucediendo.'
+    acquintance_assault:
+      title: '¿QUÉ ES LA AGRESIÓN SEXUAL POR CONOCIDOS?'
+      text: 'La agresión sexual por conocidos es el contacto sexual sin consentimiento entre personas que se conocen entre sí. Según el Instituto Nacional de Justicia, el 90% de las víctimas de agresión sexual en la universidad conocen a su agresor.'
+      source: 'Fuente:'
+    abuser:
+      title: 'REPORTANDO AL ABUSADOR: REPORTAR O NO REPORTAR'
+      text_a: 'Las agresiones sexuales son raramente reportadas. De hecho, el asalto sexual sigue siendo el delito menos reportado drásticamente en los EE. UU. En la universidad, menos de un 5% de las violaciones completas o intentadas se denuncian a la policía.'
+      text_b: 'Las tasas de reporte son bajas por una variedad de razones. Un sobreviviente puede no estar seguro de si lo que sucedió fue en realidad un asalto sexual. Las agresiones sexuales cometidas por un conocido a menudo son vistas como "no tan malas" porque no se ajustan a la comprensión social común de la agresión sexual.'
+      text_c: 'Los sobrevivientes pueden pensar que la policía, los tribunales y los amigos no les creerán o incluso que los culparán. Muchas víctimas / sobrevivientes encuentran una estrategia de afrontamiento inmediata al permitirse negar que el asalto haya ocurrido en primer lugar. Sin el reconocimiento de la agresión sexual, encuentran un alivio temporal de sus experiencias. Sin embargo, este alivio no durará, y probablemente afectará su curación en el futuro. Además, si el agresor era un compañero íntimo o un amigo cercano, las víctimas / sobrevivientes pueden sentirse divididas entre su violación personal de la experiencia y su amor por el agresor. Ellos no quieren poner a su ser conocido en problemas. Especialmente en estos casos, las víctimas / sobrevivientes pueden sentir que tienen la culpa del asalto y, por lo tanto, no se sienten validados ni tienen derecho a presentar un informe.'
+      text_d: 'Decide si quieres hacer un reporte policial. Si existe la posibilidad de que desee informar, conserve todas las pruebas. No se bañe, no orine, no se cambie de ropa (incluso la ropa interior), no se cepille los dientes, no se bañe, no haga duchas vaginales o alinee el área hasta que se haya recopilado la evidencia médica y legal. Si elige cambiarse de ropa, coloque la ropa que llevaba puesta en una bolsa de papel (para preservar la evidencia) y llévela con usted al hospital o la agencia de policía más cercana. Si decide orinar, hágalo en un frasco de vidrio limpio y llévelo al hospital o a la agencia de policía. Si elige informar, llame al 911 y vaya al hospital para que se recopilen las pruebas médicas. Es mejor hacerse el examen médico dentro de las 72 horas posteriores al asalto. Incluso si elige no informar, debe ir al hospital o clínica más cercana. Es posible que se sienta bien, pero aún así es una buena idea hablar con un proveedor de atención médica sobre las pruebas de embarazo y las infecciones / enfermedades de transmisión sexual, y los servicios de apoyo.'
+    questions:
+      title: 'PREGUNTAS COMUNES SOBRE LOS SOBREVIVIENTES DE LA VIOLENCIA BASADA EN EL GÉNERO'
+      text_a: 'La violencia de género puede ser extremadamente traumática y cambiar la vida de una persona. Es importante recordar que sus respuestas no son locas; Son reacciones normales ante una situación traumática. Nuestro objetivo es ofrecer apoyo, opciones y recursos que fomenten el empoderamiento y la curación.'
+      text_b: 'A continuación hay algunas preguntas comunes que los sobrevivientes pueden hacer, pero no es necesariamente una lista exhaustiva.'
+      why:
+        title: '¿POR QUÉ ME HA OCURRIDO ESTO A MI?'
+        text: 'No hiciste nada malo. No es tu culpa. Tu poder fue quitado por alguien más. La violencia sexual puede ocurrirle a cualquiera, independientemente de su edad, sexo, raza, religión, etc. Una de cada tres mujeres y uno de cada seis hombres son agredidos sexualmente en algún momento de su vida.'
+      when:
+        title: '¿CUÁNDO ESTARÉ BIEN? ¿CUÁNDO SE TERMINARÁ ESTO? ¿CUÁNDO ME VOY A DEJAR DE SENTIR TAN MAL?'
+        text: 'Es difícil entender que alguien te haga esto y que haya mucho dolor. No es justo pero sobreviviste. Eres fuerte y valiente. No hay un plano para la curación. Es en su propio horario y a su manera. Hay personas que pueden ayudarte si lo necesitas.'
+      how:
+        title: '¿CÓMO PUEDO RECUPERARME DE ESTO?'
+        text: 'A nadie se le enseñó cómo curarse de un trauma, así que da miedo. No hay 10 pasos simples para la curación, pero está ocurriendo. Hablar de la experiencia es una herramienta de sanación muy importante. El asalto sexual no es algo que un individuo "superará" en su vida, más, se convierte en una experiencia que moldará el carácter y el ser de la víctima / sobreviviente que no tiene más o menos impacto en el individuo que cualquier otra experiencia de su vida.'
+      understand:
+        title: 'NADIE ME ENTIENDE'
+        text: 'No estás solo. Estos son sentimientos comunes de los sobrevivientes. Incluso si siente que nadie puede entender su situación personal, hay personas que quieren ayudarlo y apoyarlo durante este tiempo. El asalto sexual es una experiencia muy común para muchas personas. 1 de cada 3 mujeres será agredida sexualmente en su vida, y 1 de cada 6 hombres será agredido sexualmente en su vida.'
+      crazy:
+        title: '¿ME SIENTO CÓMO SI ME ESTUVIERA VOLVIENDO LOCO?'
+        text: 'No está loco; Usted está tratando con una situación difícil. Muchos sobrevivientes tienen este sentimiento.'
+      deal:
+        title: 'NO ERA PARA TANTO'
+        text: 'Lo que pasó fue un trauma y puede afectarte mucho. A veces no te das cuenta de lo mucho que te afecta de inmediato. Pero, fingir que no sucedió o ignorarlo no será útil en el proceso de curación.'
+      imagining:
+        title: '¿ESTOY IMAGINANDO ESTO? ¿ESTO NO PODRÍA REALMENTE SUCEDER?'
+        text: 'Es difícil creer algo tan horrible y tan doloroso, pero en general los recuerdos como este son reales. Los recuerdos de experiencias dolorosas a veces se bloquean hasta que esté listo para procesarlos y seguir adelante.'
+    common:
+      title: 'SENTIMIENTOS COMUNES DE SOBREVIVIENTES DE LA VIOLENCIA DE GÉNERO.'
+      shock:
+        title: 'SHOCK E INESTABILIDAD'
+        text_a: 'Esta respuesta puede ocurrir poco después de una agresión sexual. Los sobrevivientes pueden experimentar sentimientos de incredulidad o negación sobre lo que sucedió. Los sobrevivientes pueden sentirse emocionalmente agotados y a veces, pueden desconocer lo que sucede a su alrededor. Otras reacciones al shock emocional pueden incluir: llorar incontrolablemente, reírse nerviosamente, retirarse o decir que no siente nada o que está "bien". Los sobrevivientes a menudo pueden sentirse abrumados hasta el punto de no saber cómo sentirse o qué hacer.'
+        text_b: 'Reconozca que estos sentimientos son reacciones normales que están experimentando un trauma. Asegúrate de que estos sentimientos disminuirán con el tiempo, pero te llevará todo el tiempo que necesites para curarte. Si desea compañía, puede ser útil rodearse de amigos o familiares que lo apoyen. También es posible que desee pensar en lo que le ha ayudado a superar una crisis anterior. Por ejemplo, puede ayudar practicar ejercicios de respiración o meditación, salir a caminar, escuchar música o hablar con amigos y familiares que lo apoyen. Recuerda también los recursos en el campus que tienes si quieres hablar con alguien:'
+      disruption:
+        title: 'LA DISRUPCIÓN DE LA VIDA COTIDIANA'
+        text_a: 'Después de un asalto, las víctimas / sobrevivientes pueden sentirse preocupados con pensamientos sobre el incidente. Puede ser difícil para los sobrevivientes concentrarse, asistir a clase o concentrarse en las tareas escolares. Puede ser muy molesto tener recordatorios del asalto cuando trata de Volver a su vida normal. Los sobrevivientes pueden tener pesadillas, problemas para dormir, cambios en el apetito, ansiedad general o depresión. Durante las primeras semanas o meses después del asalto, los sobrevivientes pueden sentir que su vida ha sido alterada y pueden preguntarse si alguna vez será lo mismo.'
+        text_b: 'importante ser amable contigo mismo y tomar medidas para reclamar tu vida. Después de experimentar cualquier tipo de crisis, es importante tomarse un tiempo para lamentarse, adaptarse y reorganizar su vida. Reconoce que podrás continuar con tu vida. No tengas miedo de buscar ayuda si tiene dificultades académicas o si necesita ayuda para lidiar con el trauma.'
+      loss:
+        title: 'PÉRDIDA DE CONTROL'
+        text_a: 'Los sobrevivientes pueden sentirse desorientados y abrumados. También pueden sentirse ansiosos, asustados o nerviosos y tener dificultades para concentrarse. A menudo, los sobrevivientes se sienten inseguros sobre sí mismos y pueden perder temporalmente su confianza en sí mismos. Las decisiones que se tomaron de forma rutinaria antes, ahora pueden parecer monumentales. Los sobrevivientes pueden sentir que debido al asalto, tendrán que cambiar todo su estilo de vida para sentirse seguros.'
+        text_b: 'Trate de tomar la mayor cantidad de sus propias decisiones como sea posible. Incluso tomar pequeñas decisiones puede ayudarlo a recuperar un sentido de control. Es posible que desee hacer algunos cambios en su vida, como reorganizar los muebles en su habitación, cambiar su apariencia cortándose el pelo o cambiar su rutina haciendo ejercicio por la mañana en lugar de por la noche. Los pequeños cambios pueden ayudarlo a sentir que está recuperando el control. Si bien hay personas que lo pueden ayudar con sus opciones y lo ayudan a tomar la mejores decisiones para usted, es importante que confíe en sus instintos sobre lo que es mejor para usted.'
+      fear:
+        title: 'TEMOR'
+        text_a: 'Es frecuente que las víctimas / sobrevivientes teman a las personas y se sientan vulnerables incluso al pasar por las actividades normales de la vida. Pueden tener miedo de estar solos o tener miedo de estar con muchas personas. Pueden encontrarse sin saber en quién confiar. Los sobrevivientes pueden haber perdido su sentido de seguridad en su propio entorno, lo que los hace sentirse vulnerables y pueden temer que los asalten de nuevo. Los sobrevivientes también pueden estar más al tanto de insinuaciones sexuales, miradas perdidas o silbidos.'
+        text_b: 'Realice los cambios que necesite en su vida para sentirse seguro. Es posible que desee cambiar sus cerraduras, tomar una clase de defensa personal o quedarse con un familiar o un amigo temporalmente. No confiar es una habilidad emocional de afrontamiento. La mayoría de estos temores desaparecerán o disminuirán con el tiempo. Podrá confiar cuando haya tenido la oportunidad de curarse y se sienta menos vulnerable. Si no mejora y el miedo se interpone en su vida diaria, puede ser útil hablar con un consejero.'
+      guilt:
+        title: 'Culpa y vergüenza'
+        text_a: 'La mayoría de las víctimas / sobrevivientes se sienten culpables y avergonzados por el asalto. Los sobrevivientes a menudo cuestionan que de alguna manera pueden haber "provocado" o "haberlo pedido", que no deberían haber confiado en el agresor o que deberían haber prevenido de alguna manera el asalto. Algunos de estos sentimientos son el resultado de los mitos de la sociedad sobre el abuso sexual y la sexualidad. Los sobrevivientes a menudo comienzan a dudar de su capacidad para hacer buenos juicios o confiar en sus propios instintos. A veces culpar a sí mismos ayuda a los sobrevivientes a sentirse menos indefensos.'
+        text_b: 'No fue su culpa. Nadie merece ser agredido sexualmente. Dígase eso muchas veces al día. Ser agredido sexualmente no te hace una mala persona; No elegiste ser asaltado sexualmente. Date cuenta de que la culpa es un esfuerzo para sentir algo de control sobre la situación. Muchos sobrevivientes también son culpables de las personas que cuentan el incidente. Estas reacciones son alimentadas por los mitos de la sociedad sobre el asalto sexual. Es importante rodearse de personas de apoyo. La educación sobre los hechos relacionados con el asalto sexual también puede ser útil para disipar la vergüenza y la culpa. Es posible que desees encontrar algunos recursos sobre salud y recuperación después de una agresión sexual.'
+      anger:
+        title: 'IRA'
+        text_a: 'Las víctimas / sobrevivientes pueden tener diferentes razones para sentirse enojados. A menudo hay tanto enojo por los eventos posteriores al asalto, como por el asalto mismo: el cambio del estilo de vida, pérdida de la libertad, que los amigos y familiares le digan que “lo superen”. La ira es una respuesta adecuada y saludable al asalto sexual. Por lo general, significa que el sobreviviente se está recuperando y ha comenzado a considerar la responsabilidad del agresor por el asalto. Los sobrevivientes varían mucho en cuanto a la facilidad con que se sienten y expresan la ira. Puede ser especialmente difícil expresar la ira si a un sobreviviente se le ha enseñado que estar enojado nunca es apropiado. La ira se puede ventilar de manera segura y saludable, o se puede activar, donde puede convertirse en tristeza, dolor o depresión.'
+        text_b: 'Permítase enojarse. Tienes derecho a sentirte enojado. Sin embargo, es importante sentirse enojado sin lastimarse o lastimar a los demás. Como parte de su enojo, puede sentirse más irritable en el hogar, la escuela o el trabajo. La ira se puede expresar físicamente sin lastimarse ni a los demás. Algunas personas encuentran que la actividad física (como caminar, correr, andar en bicicleta, golpear almohadas, etc.) puede ayudar a liberar la tensión física que a menudo acompaña a la ira. Escribir en un diario, tocar música o cantar en voz alta también son formas útiles y saludables de liberar la ira. Informar sobre el asalto sexual puede ser otra forma de elegir convertir su ira en una acción positiva. Muchas personas a menudo les resulta útil hablar con otros sobrevivientes. Tenga cuidado de evitar formas poco saludables de hacer frente a la ira, como el consumo de alcohol o drogas, el corte u otras conductas autodestructivas.'
+      isolation:
+        title: 'AISLAMIENTO'
+        text_a: 'Algunas víctimas / sobrevivientes de agresión sexual sienten que su experiencia los diferencia de los demás. A menudo, se sienten diferentes o piensan que los demás pueden decir que han sido agredidos sexualmente con solo mirarlos. Algunos sobrevivientes no quieren molestar a nadie con sus problemas, por lo que no hablan sobre el incidente o sus sentimientos. Los sobrevivientes pueden retirarse o distanciarse de sus familiares y amigos.'
+        text_b: 'No está solo en lo que está sintiendo. Muchas personas se benefician al hablar con otros sobrevivientes. Leer más sobre el tema también puede ser tranquilizador y validador. Si se siente solo, llame a un amigo o familiar de confianza. Puede hacer toda la diferencia estar con alguien que se preocupa por ti.'
+      anxiety:
+        title: 'ANSIEDAD, ESCALOFRIOS, PESADILLAS'
+        text_a: 'Las víctimas / sobrevivientes pueden experimentar temblores, ansiedad, flashbacks y pesadillas después de un ataque. Esto puede comenzar poco después del ataque y continuar durante un largo período de tiempo. Las pesadillas pueden repetir el asalto o incluir sueños de ser perseguidos, atacados, etc. Los sobrevivientes a menudo temen que lo estén "perdiendo" y pueden sentir que ya deberían haber "superado esto".'
+        text_b: 'Estas respuestas, por más temibles que sean, son reacciones normales al trauma. Estas reacciones físicas son formas en que sus emociones responden al miedo que experimenta. Es importante poder hablar sobre sus pesadillas y temores, en particular sobre cómo afectan su vida. Mantener un diario para escribir sobre sus sentimientos, sueños y preocupaciones puede ser una herramienta útil en el proceso de recuperación.'
+      concern:
+        title: 'PREOCUPACIÓN POR EL ASALTANTE'
+        text_a: 'Algunas víctimas / sobrevivientes expresan preocupación por lo que le sucederá al agresor si el ataque es denunciado o procesado. Otros expresan la preocupación de que un agresor está enfermo y necesita atención psiquiátrica más que la prisión. Es humano mostrar preocupación por los demás, especialmente por aquellos que tienen problemas, son destructivos y están confundidos. Algunas de estas actitudes pueden ser el resultado del esfuerzo de los sobrevivientes por comprender lo que sucedió, especialmente si hubo una relación anterior con el asaltante. Estas actitudes también pueden ser el resultado de que los sobrevivientes se culpen por el asalto. Si los sobrevivientes sienten lastima por el agresor, les puede resultar difícil expresar su enojo e indignación por lo que sufrieron.'
+        text_b: 'La agresión sexual no fue su culpa. Solo el asaltante es responsable de lo sucedido. Tienes derecho a sentir y expresar ira. Es importante responsabilizar al agresor. Puedes tener sentimientos encontrados - puedes amar al agresor como persona y aún así odiar lo que esa persona te hizo. Tratar de "perdonar" prematuramente al agresor puede obligarlo a enterrar sus sentimientos de ira y rabia. Informar sobre la agresión sexual puede ser una de las formas en que elige convertir su ira en una acción positiva. Los informes también pueden ser la única forma de que el agresor reciba tratamiento.'
+      sexual:
+        title: 'PREOCUPACIONES SEXUALES'
+        text_a: 'Las víctimas / sobrevivientes pueden experimentar una variedad de preocupaciones sexuales después de un asalto. Algunos sobrevivientes pueden no querer contacto sexual alguno; otros pueden usar el sexo como un mecanismo de afrontamiento. Algunas personas pueden experimentar cierta confusión acerca de separar el sexo del abuso sexual. Los actos sexuales particulares pueden provocar recuerdos y, por lo tanto es muy difíciles para que los sobrevivientes se involucren.'
+        text_b: 'La curación sexual toma tiempo. Ve a tu propio ritmo. Se muy claro con su pareja sobre sus necesidades y límites cuando se trata de cualquier tipo de contacto sexual. Tienes derecho a negarte a ser sexual hasta que se sienta listo. Dígale a su pareja qué tipo de intimidad física o sexual le resulta cómoda. El asalto sexual no es el sexo. Las relaciones sexuales íntimas y consensuadas deben ser placenteras para ambas partes. Un compañero paciente, amable e íntimo es útil en su proceso de curación. Un terapeuta con experiencia en la recuperación de traumas sexuales puede ser muy útil para su proceso de curación.'
+      post:
+        title: 'TRASTORNO DE ESTRÉS POSTRAUMÁTICO'
+        text_a: 'El trastorno de estrés postraumático, también conocido como PTSD, implica un patrón de síntomas que los sobrevivientes pueden experimentar después de una agresión sexual. Los síntomas del trastorno de estrés postraumático incluyen pensamientos repetidos del asalto; recuerdos y pesadillas; evitación de pensamientos, sentimientos y situaciones relacionadas con el asalto; y aumento de la estimulación (por ejemplo, dificultad para dormir y concentración, temblores, irritabilidad). Un estudio que examinó los síntomas de trastorno de estrés postraumático entre las mujeres que fueron violadas, encontró que el 94% de las mujeres experimentaron estos síntomas durante las dos semanas inmediatamente después de la violación. Nueve meses después, aproximadamente el 30% de las mujeres todavía informaban este patrón de síntomas. El Estudio nacional de mujeres informó que casi un tercio de todos los sobrevivientes de violaciones desarrollan PTSD en algún momento de sus vidas y el 11% de los sobrevivientes de violaciones actualmente padecen el trastorno.'
+        text_b: 'El tratamiento para el trastorno de estrés postraumático (PTSD, por sus siglas en inglés) generalmente comienza con una evaluación detallada y el desarrollo de un plan de tratamiento que satisfaga las necesidades únicas del sobreviviente. El tratamiento específico para el trastorno de estrés postraumático por lo general se comienza sólo después de que las personas han sido retiradas de una situación de crisis.'
+    bullet_point: 'Si es una víctima / sobreviviente, aquí hay algunos consejos que pueden ayudar:'
+    close: 'Cerrar'
+  get_help:
+    title: '¿Qué es la violencia sexual y de género?'
+    text: 'Asalto sexual es contacto sexual, intentado o amenazado con otra persona sin el consentimiento de esa persona. Aprende más '
+    what_to_do:
+      title: '¿Qué hacer si acabas de experimentar violencia?'
+      list:
+        a: 'Ve a un lugar seguro.'
+        b: 'Póngase en contacto con alguien que pueda ayudarlo: un amigo, la policía (911), el hospital local o estas líneas directas.'
+        c: 'Denuncie a su abusador. ¿No está seguro si se siente seguro o cómodo informando? Aprende más '
+    questions:
+      title: ' Preguntas comunes de personas sobrevivientes de violencia de género'
+      text_a: 'Las respuestas emocionales de los sobrevivientes variarán de un individuo a otro. Lea '
+      text_b: 'algunas preguntas comunes de los sobrevivientes.'
+    feelings:
+      title: 'Emociones comúnes de personas sobrevivientes de violencia de género'
+      text_a: 'La agresión sexual puede ser extremadamente traumática y cambiar la vida. Es importante recordar que sus respuestas no son locas; Son reacciones normales ante una situación traumática. Lea más'
+      text_b: 'sobre las comunes que pueden experimentar los sobrevivientes de violencia de género.'
+    hotlines:
+      title: 'Lineas directas'
+      text_a: 'Si usted o alguien que conoce necesita ayuda, llame al'
+      text_b: 'para obtener ayuda inmediata o a estas líneas directas de emergencia las 24 horas que ofrecen información e intervención en caso de crisis.'
+    here: 'aquí'
+  safety_planning:
+    title: 'Planeación Segura'
+    text: "Aunque no puedas controlar el uso de la violencia por parte de un abusador, puedes planificar cómo responder ante futuros incidentes abusivos o violentos, prepararse para la posibilidad de que ocurra un incidente y planificar cómo llegar a un lugar seguro. Es su decisión cuando le dice a otras personas que ha sido víctima de abuso o que todavía está en riesgo. Los amigos, familiares y compañeros de trabajo pueden ayudarlo con su plan de seguridad si están conscientes de la situación y desean ayudar."
+    questions_header: 'Pregúntate las siguientes preguntas:'
+    list:
+      a: 'Cuando tenga que hablar con el abusador, puedo ____________________.'
+      b: 'Cuando hablo por teléfono con el abusador, puedo ____________________.'
+      c: 'Puedo inventar una "palabra clave" para mi familia, compañeros de trabajo, amigos y consejeros para que sepan cuándo pedir ayuda. Mi palabra clave es ____________________.'
+      d: 'Cuando sienta que se avecina una pelea, trataré de trasladarme a un lugar con el menor riesgo de lastimarme, como ____________________ (en la oficina), ____________________ (en casa) o ____________________ (en público).'
+      e: 'Puedo decirle a mi familia, compañeros de trabajo, jefe, consejero o un amigo sobre mi situación. Me siento segura contandole a ____________________.'
+      f: 'Puedo filtrar mis llamadas, mensajes de texto, correos electrónicos y visitantes. Tengo derecho a no recibir llamadas telefónicas, mensajes de texto o correos electrónicos que me acosan. Puedo pedirles a amigos familiares o compañeros de trabajo que me ayuden a controlar mis contactos. Puedo pedirles ayuda a estas personas: ____________________.'
+      g:
+        main: 'Puedo llamar a cualquiera de las siguientes personas para obtener ayuda o apoyo si es necesario y pedirles que llamen a la policía si ven que el abusador me está acosando.'
+        sub_list:
+          a: 'Amigo: ____________________'
+          b: 'Pariente: ____________________'
+          c: 'Compañero de trabajo: ____________________'
+          d: 'Consejero: ____________________'
+          e: 'Refugio: ____________________'
+          f: 'Otro: ____________________'
+      h: 'Al salir del trabajo, puedo ____________________.'
+      i: 'Al caminar, montar bicicleta o conducir a casa, si ocurren problemas, puedo ____________________.'
+      j: "Puedo asistir a un grupo de apoyo para víctimas / sobrevivientes con el programa de Violencia Doméstica, como ____________________."
+      k:
+        main: 'Información de contacto que necesito tener:'
+        sub_list:
+          a: 'Departamento de Policía: ____________________'
+          b: 'Programa de Violencia Doméstica: ____________________'
+          c: 'Programa de Agresión Sexual: ____________________'
+          d: 'Abogado: ____________________'
+          e: 'Consejero: ____________________'
+          f: 'Apoyo espiritual / Clero: ____________________'
+          g: 'Agente de libertad condicional: ____________________'
+          h: 'Otro: ____________________'
+    resources:
+      title: 'ACCESO A LOS RECURSOS'
+      text: 'Cuando estás en crisis, es muy difícil buscar ayuda, tomar decisiones y cuidar de ti mismo y de los demás. Un defensor, a través de su programa local de violencia doméstica, puede ayudar de muchas maneras. Pueden identificar recursos en la comunidad que de otra manera podrían no ser vistos (como iglesias e individuos que servirán de apoyo). Puede comenzar el contacto con un proveedor de servicios y facilitar el proceso. También pueden dar apoyo y aliento. En estos momentos en que los presupuestos son limitados, es importante tener una perspectiva "fuera de la caja". Es muy probable que también haya otros que busquen lo que usted está tratando de encontrar. Por ejemplo, si necesita cuidado de niños y no puede encontrar ayuda financiera, busque otros padres que también necesiten cuidado de niños y ponganse de acuerdo para ayudar el uno al otro cuidando a los niños.'
+    guidelines:
+      title: 'Algunas pautas útiles para tener en cuenta al encontrar apoyo:'
+      list:
+        a: 'Si no se siente cómodo con la persona con la que está trabajando, solicite otro defensor o consejero, o intente encontrar otro programa de violencia doméstica.'
+        b: "Tenga a mano documentos esenciales cuando vaya a una cita: certificados de nacimiento, identificación con foto, licencia de conducir, pasaporte y facturas de servicios públicos (para mostrar la residencia). Conozca qué documentos necesitará con anticipación."
+        c: "Realice sus llamadas desde un lugar donde pueda entablar una conversación y resuelva las posibles interrupciones antes de tiempo (por ejemplo, pida a los pequeños que tomen una siesta o llamen cuando los niños juegan en casa de un vecino)."
+        d: 'Sea paciente, hable claramente y no le dé su historia a la persona que atiende el teléfono o a la primera persona de contacto. Lo más probable es que tenga que contar su historia nuevamente a la persona calificada para ayudarlo. En su lugar, brinde información clara y específica sobre lo que necesita (por ejemplo, "Necesito un abogado de derecho de familia para un caso de custodia de menores y soy víctima de violencia doméstica"). Luego, permita que el proveedor de servicios le solicite la información que necesitan para calificar para los servicios. De ser posible, solicite a un defensor que inicie el contacto con el proveedor de servicios recomendado.'
+  ngos:
+    title: 'Para Proveedores'
+    form:
+      address: 'Dirección'
+      city: 'Ciudad'
+      county: 'Condado'
+      zip: 'Código Postal'
+      office: 'Número de Oficina'
+      site: 'Sitio Web'
+      contact: 'Punto de Contacto'
+      hotline: 'Línea de Ayuda'
+      description: 'Descripción del Servicio'
+      eligibility: 'Elegibilidad'
+      cost: 'Costo'
+      type: 'Tipo de Centro'
+      added_cost: 'Costo Adicional'
+      crisis: 'Crísis'
+      medical: 'Médica'
+      st_councel: 'Consejo ST'
+      lt_councel: 'Consejo LT'
+      legal: 'Jurídico'
+      case: 'Manejo de Caso'
+      referral: 'Sitema de Referidos'
+      shelter: 'Refugio'
+      empowerment: 'Empoderamiento'
+      prevention: 'Prevención'
+      undocumented_friendly: 'Apoyo a Indocumentados'
+      lgbtq: 'Apoyo para comunidad LGBTQ'
+      pain_points: 'Puntos de Dolor'
+    send: 'Enviar'
+    'yes': 'Sí'
+    'no': 'No'
