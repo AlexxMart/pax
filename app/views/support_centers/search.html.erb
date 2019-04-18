@@ -1,10 +1,10 @@
 <section class="section-container">
-    <h1>Results</h1>
+    <h1><%= I18n.t 'search.results'%></h1>
 
-    <%= form_tag("/search", :method => "get", id: "index-form") do %>
+    <%= form_tag(search_path, :method => "get", id: "index-form") do %>
     
         <div class="search-menu">
-          <%= text_field_tag :search, params[:search], placeholder: "Please enter your county", id: "searchbar", :autofocus => true %>
+          <%= text_field_tag :search, params[:search], placeholder: "#{I18n.t 'index.placeholder'}", id: "searchbar", :autofocus => true %>
           <button type="submit" class="searchbutton"><i class="material-icons">search</i></button>
         </div>
       
@@ -14,7 +14,6 @@
         </div>
     
     <% end %>
-
       <div class="results-list">
         <% if @results.length > 0 %>
           <% @results.each do |f| %>
@@ -29,11 +28,11 @@
 
     <% else %>
       <% if @queryCounty != '' && @queryFilter != nil %>
-        <p id="results-error">There are no results for the County of "<%= @queryCounty %>" with the filter "<%= @queryFilter %>", please try again with different search terms.</p>
+        <p id="results-error"><%= I18n.t 'search.county_filter.error_a'%> "<%= @queryCounty %>" <%= I18n.t 'search.county_filter.error_b'%> "<%= @queryFilter %>", <%= I18n.t 'search.county_filter.error_c'%>.</p>
       <% elsif @queryCounty != '' && @queryFilter != '' %>
-        <p id="results-error">There are no results for the County of "<%= @queryCounty %>", please try again with a different County.</p>
+        <p id="results-error"><%= I18n.t 'search.county_filter.error_a'%> "<%= @queryCounty %>", <%= I18n.t 'search.county.error_a'%></p>
       <% else %>
-        <p id="results-error">It seems your search includes no parameters, please type in your County in the searchbar and add the filter that better describes the type of help you're looking for.</p>
+        <p id="results-error"><%= I18n.t 'search.no_results'%></p>
       <% end %>
     <% end %>
 

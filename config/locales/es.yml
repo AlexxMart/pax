@@ -225,3 +225,12 @@ es:
     send: 'Enviar'
     'yes': 'Sí'
     'no': 'No'
+  search:
+    results: 'Resultados'
+    county_filter:
+      error_a: 'No hay resultados para el condado de'
+      error_b: 'con el filtro'
+      error_c: 'por favor intente de nuevo usando diferentes parámetros.'
+    county:
+      error_a: 'por favor intente nuevamente con otro condado.'
+    no_results: "Parece que su busqueda no incluye parámetros, por favor incluya el nombre de su condado en la barra de busqueda y agregue el filtro que mejor describa el tipo de ayuda que está buscando."

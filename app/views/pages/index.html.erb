@@ -4,7 +4,7 @@
 
     <h1 id="index-main-text"><%= I18n.t 'index.header'%></h1>
     
-    <%= form_tag("/search", :method => "get", id: "index-form") do %>
+    <%= form_tag(search_path, :method => "get", id: "index-form") do %>
       
       <div class="search-menu">
         <%= text_field_tag :search, params[:search], placeholder: "#{I18n.t 'index.placeholder'}", id: "searchbar", :autofocus => true %>

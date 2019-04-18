@@ -33,7 +33,10 @@ class SupportCentersController < ApplicationController
   end
 
   def search
-    @queryCounty = params[:search].capitalize
+    if params[:search] != nil
+      @queryCounty = params[:search].capitalize
+    end
+
     if params[:filter] != nil
       @queryFilter = params[:filter].downcase
     end

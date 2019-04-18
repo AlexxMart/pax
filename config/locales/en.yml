@@ -225,3 +225,12 @@ en:
     send: 'send'
     'yes': 'Yes'
     'no': 'No'
+  search:
+    results: 'Results'
+    county_filter:
+      error_a: 'There are no results for the County of'
+      error_b: 'with the filter'
+      error_c: 'please try again with different search terms.'
+    county:
+      error_a: 'please try again with a different County.'
+    no_results: "It seems your search includes no parameters, please type in your County in the searchbar and add the filter that better describes the type of help you're looking for."
