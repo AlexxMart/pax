@@ -1,11 +1,11 @@
 <header class="top">
     <p><%= I18n.t 'index.contact_banner_a'%> <span class="desktop-number">1-800-656-4673</span><a class="mobile-number" href="tel:+18006564673">1-800-656-4673</a> <%= I18n.t 'index.contact_banner_b'%></p>
     <ul id="slide-out" class="sidenav">
-        <li class="sidenav-close" data-no-turbolink><a href="/"><%= I18n.t 'index.menu.home'%></a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/get-help"><%= I18n.t 'index.menu.get_help'%></a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/for-survivors"><%= I18n.t 'index.menu.for_survivors'%></a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/safety-planning"><%= I18n.t 'index.menu.safety_planning'%></a></li>
-        <li class="sidenav-close" data-no-turbolink><a href="/service-providers"><%= I18n.t 'index.menu.ngos'%></a></li>
+        <li class="sidenav-close" data-no-turbolink><%= link_to "#{I18n.t 'index.menu.home'}", root_path %></li>
+        <li class="sidenav-close" data-no-turbolink><%= link_to "#{I18n.t 'index.menu.get_help'}", get_help_path %></li>
+        <li class="sidenav-close" data-no-turbolink><%= link_to "#{I18n.t 'index.menu.for_survivors'}", for_survivors_path %></li>
+        <li class="sidenav-close" data-no-turbolink><%= link_to "#{I18n.t 'index.menu.safety_planning'}", safety_planning_path %></li>
+        <li class="sidenav-close" data-no-turbolink><%= link_to "#{I18n.t 'index.menu.ngos'}", service_providers_path %></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 </header>
