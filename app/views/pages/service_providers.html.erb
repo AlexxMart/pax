@@ -1,137 +1,137 @@
 <section class="section-container ngos" >
-  <h1>For NGOS</h1>
+  <h1><%= I18n.t 'ngos.title'%></h1>
   
   <form action="https://send.pageclip.co/tCaBaBF20d3xs4hSE3RyX20H5MGSAydj/forNGOS" class="pageclip-form" method="post">
-    <label for="street">Street Address</label>
+    <label for="street"><%= I18n.t 'ngos.form.address'%></label>
     <input type="text" name="street-address" id="street" required />
 
-    <label for="city">City</label>
+    <label for="city"><%= I18n.t 'ngos.form.city'%></label>
     <input type="text" name="city" id="city" required />
     
-    <label for="county">County</label>
+    <label for="county"><%= I18n.t 'ngos.form.county'%></label>
     <input type="text" name="county" id="county" required />
     
-    <label for="zipcode">Zip Code</label>
+    <label for="zipcode"><%= I18n.t 'ngos.form.zip'%></label>
     <input type="text" name="zip-code" id="zipcode" required />
     
-    <label for="office-number">Office Number</label>
+    <label for="office-number"><%= I18n.t 'ngos.form.office'%></label>
     <input type="text" name="office-number" id="office-number" required />
     
-    <label for="website">Website</label>
+    <label for="website"><%= I18n.t 'ngos.form.site'%></label>
     <input type="text" name="website" id="website" />
     
-    <label for="point-of-contact">Point of Contact</label>
+    <label for="point-of-contact"><%= I18n.t 'ngos.form.contact'%></label>
     <input type="text" name="point-of-contact" id="point-of-contact" />
     
-    <label for="hotline">Hotline</label>
+    <label for="hotline"><%= I18n.t 'ngos.form.hotline'%></label>
     <input type="text" name="hotline" id="hotline" required />
     
-    <label for="description">Service Description</label>
+    <label for="description"><%= I18n.t 'ngos.form.description'%></label>
     <textarea name="description" id="description" required></textarea>
     <br>
     <br>
     
-    <label for="eligibility">Eligibility</label>
+    <label for="eligibility"><%= I18n.t 'ngos.form.eligibility'%></label>
     <input type="text" name="eligibility" id="eligibility" required />
     
-    <label for="cost">Cost</label>
+    <label for="cost"><%= I18n.t 'ngos.form.cost'%></label>
     <input type="text" name="cost" id="cost" required />
 
-    <label>Type of Center</label>
+    <label><%= I18n.t 'ngos.form.type'%></label>
     <select name="type" required>
-      <option value="legal">Legal</option>
-      <option value="housing">Housing</option>
-      <option value="financial">Financial</option>
-      <option value="medical">Medical</option>
-      <option value="psychological">Psychological</option>
+      <option value="legal"><%= I18n.t 'index.inputs.legal'%></option>
+      <option value="housing"><%= I18n.t 'index.inputs.housing'%></option>
+      <option value="financial"><%= I18n.t 'index.inputs.financial'%></option>
+      <option value="medical"><%= I18n.t 'index.inputs.medical'%></option>
+      <option value="psychological"><%= I18n.t 'index.inputs.psychological'%></option>
     </select>
 
-    <label>Added Cost</label>
+    <label><%= I18n.t 'ngos.form.added_cost'%></label>
     <select name="added-cost" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Crisis</label>
+    <label><%= I18n.t 'ngos.form.crisis'%></label>
     <select name="crisis"required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Medical</label>
+    <label><%= I18n.t 'ngos.form.medical'%></label>
     <select name="medical" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>ST Councel</label>
+    <label><%= I18n.t 'ngos.form.st_councel'%></label>
     <select name="stcouncel" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>LT Councel</label>
+    <label><%= I18n.t 'ngos.form.lt_councel'%></label>
     <select name="ltcouncel" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Legal</label>
+    <label><%= I18n.t 'ngos.form.legal'%></label>
     <select name="legal" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Case Management</label>
+    <label><%= I18n.t 'ngos.form.case'%></label>
     <select name="case-management" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Referral System</label>
+    <label><%= I18n.t 'ngos.form.referral'%></label>
     <select name="referral-system" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Shelter</label>
+    <label><%= I18n.t 'ngos.form.shelter'%></label>
     <select name="shelter" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
     
-    <label>Empowerment</label>
+    <label><%= I18n.t 'ngos.form.empowerment'%></label>
     <select name="empowerment" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
     
-    <label>Prevention</label>
+    <label><%= I18n.t 'ngos.form.prevention'%></label>
     <select name="prevention" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Undocumented Friendly</label>
+    <label><%= I18n.t 'ngos.form.undocumented_friendly'%></label>
     <select name="undocumented-friendly" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>LGBTQ Friendly</label>
+    <label><%= I18n.t 'ngos.form.lgbtq'%></label>
     <select name="lgbtq-friendly" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
-    <label>Pain Points</label>
+    <label><%= I18n.t 'ngos.form.pain_points'%></label>
     <select name="pain-points" required>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="yes"><%= I18n.t 'ngos.yes'%></option>
+      <option value="no"><%= I18n.t 'ngos.no'%></option>
     </select>
 
     <button type="submit" class="pageclip-form__submit action-button">
-      <span>Send</span>
+      <span><%= I18n.t 'ngos.send'%></span>
     </button>
   </form>
 </section>

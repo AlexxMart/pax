@@ -24,6 +24,10 @@ header > p > a {
   font-weight: bold;
 }
 
+.notice {
+  position: absolute;
+} 
+
 .admin-actions {
   position: absolute;
   right: 1%;
@@ -48,11 +52,15 @@ header > p > a {
 .admin-button {
   font-family:'futura', 'Muli';
   font-size: 19px;
-  margin: 7px 10px 2px 10px !important;
+  margin: 7px 10px 2px 10px;
 }
 
 .admin-button > a {
   color: #2f586e;
+}
+
+.sidenav > li > a {
+  font-size: 17px;
 }
 
 .sidenav-trigger {
@@ -69,7 +77,7 @@ header > p > a {
 }
 
 #slide-out > li:hover > a {
-  color:#eeffff !important;
+  color:#eeffff;
 }
 
 #slide-out > li:hover {
@@ -77,9 +85,9 @@ header > p > a {
 }
 ul > li, ol > li, li > a {
   font-family:'Futura', 'Questrial';
-  color:#2f586e !important;
-  padding:7px 12px 7px 12px !important;
-  font-size: 17px !important;
+  color:#2f586e;
+  padding:7px 12px 7px 12px;
+  font-size: 17px;
 }
 
 .forSurvivorsLink {

@@ -1,24 +1,17 @@
-# README
+# Poderosa Is Her Power
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## PAX
 
-Things you may want to cover:
+A site dedicated to provide helpful resources and contacts to survivors and victims of gender-based violence.
 
-* Ruby version
+Please refer to [Poderosa Is Her Power](https://www.poderosaisherpower.org/) to know more on this topic, and also if you want to become a donor to the cause.
 
-* System dependencies
+## Run this site locally:
 
-* Configuration
+To run this project on your local machine (Windows, Mac, Linux/Ubuntu/Debian) follow these steps:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Install Ruby. run `ruby --version` in your Terminal, or Command Prompt to see if you have it already installed.
+- Install Rails run `rails --version` in your Terminal, or Command Prompt to see if you have it already installed.
+- With your Terminal, or Command Prompt, navigate to the folder in which you downloaded this repo and run the command `rails s`
+- The Rails will create a local server in your local host, normally in the port 3000.
+- To see the site simply enter in your browser the address: `localhost:3000`project

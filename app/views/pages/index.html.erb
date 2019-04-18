@@ -2,29 +2,18 @@
 
   <div style="width: 100%;">
 
-    <h1 id="index-main-text">Get help near you</h1>
+    <h1 id="index-main-text"><%= I18n.t 'index.header'%></h1>
     
     <%= form_tag("/search", :method => "get", id: "index-form") do %>
       
       <div class="search-menu">
-        <%= text_field_tag :search, params[:search], placeholder: "Please enter your zip code", id: "searchbar", :autofocus => true %>
+        <%= text_field_tag :search, params[:search], placeholder: "#{I18n.t 'index.placeholder'}", id: "searchbar", :autofocus => true %>
         <button type="submit" class="searchbutton"><i class="material-icons">search</i></button>
       </div>
 
       <div class="filters">
-      <p>Please select what you are looking for</p>
-        <div class="inputs">
-          <div><%= radio_button_tag :filter, "Legal", params[:filter], id: "legal" %>
-            <label for="legal">Legal</label></div>
-          <div><%= radio_button_tag :filter, "Housing", params[:filter], id: "housing" %>
-            <label for="housing">Housing</label></div>
-          <div><%= radio_button_tag :filter, "Financial", params[:filter], id: "financial" %>
-            <label for="financial">Financial</label></div>
-          <div><%= radio_button_tag :filter, "Medical", params[:filter], id: "medical" %>
-            <label for="medical">Medical</label></div>
-          <div><%= radio_button_tag :filter, "Psychological", params[:filter], id: "psychological" %>
-            <label for="psychological">Psychological</label></div>
-        </div>
+      <p><%= I18n.t 'index.select_help'%></p>
+        <%= render '/pages/inputs' =%>
       </div>
 
     <% end %>
@@ -32,6 +21,6 @@
   </div>
 
   <div class="contactUsBanner footer-banner">
-      <p>You are not alone. If you or someone you know needs help, call <span class="desktop-number">1-800-656-4673</span><a class="mobile-number" href="tel:+18006564673">1-800-656-4673</a> for immediate support or contact us today.</p>
+      <p><%= I18n.t 'index.contact_banner_a'%> <span class="desktop-number">1-800-656-4673</span><a class="mobile-number" href="tel:+18006564673">1-800-656-4673</a> <%= I18n.t 'index.contact_banner_b'%></p>
   </div>
 </div>
