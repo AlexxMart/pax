@@ -18,6 +18,7 @@ es:
       medical: 'Médica'
       psychological: 'Psicológica'
     footer:
+      resources: 'RECURSOS ADICIONALES'
       hotlines: 'Líneas de ayuda'
       housing: 'Alojamiento Temporal'
       safety_planning: 'Plan de seguridad para sobrevivientes'
