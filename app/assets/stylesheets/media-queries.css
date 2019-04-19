@@ -47,6 +47,10 @@
     width: 70% !important;
   }
 
+  #index-main-text, .main h1 {
+    font-size: 30px;
+  }
+
   #index-main-text {
     margin-bottom: 20px;
   }
@@ -63,5 +67,9 @@
 
   .search-menu {
     flex-direction: column;
+  }
+
+  .forSurvivorsLink {
+    font-size: 20px;
   }
 }
