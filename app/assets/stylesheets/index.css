@@ -125,7 +125,7 @@ input::placeholder {
   align-items: center;
 }
 
-[type="radio"]:not(:checked), [type="radio"]:checked {
+[type="radio"]:not(:checked), [type="radio"]:checked, #admin_remember_me {
   position: relative;
   opacity: 1;
   margin-right: 5px;
